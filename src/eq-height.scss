@@ -1,0 +1,32 @@
+/*eq-height Start*/
+// private:
+@mixin clearfix {
+  &:after {
+    clear: both;
+    content: "\200B";
+    display: block;
+    height: 0;
+  }
+}
+
+.eq-height {
+  &[negative-pm-box] {
+    overflow: hidden;
+    // Must be overide:
+    max-height: 100px;
+    @include clearfix;
+    > * {
+      float: left;
+      padding-bottom: 99999px;
+      margin-bottom: -99999px;
+    }
+  }
+
+  &[table-cell]{
+    display: table-row;
+    >*{
+      display: table-cell;
+    }
+  }
+}
+/*eq-height End*/

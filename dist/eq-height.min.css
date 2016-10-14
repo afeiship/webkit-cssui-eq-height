@@ -1,0 +1,1 @@
+.eq-height[negative-pm-box]{overflow:hidden;max-height:100px}.eq-height[negative-pm-box]:after{clear:both;content:"\200B";display:block;height:0}.eq-height[negative-pm-box]>*{float:left;padding-bottom:99999px;margin-bottom:-99999px}.eq-height[table-cell]{display:table-row}.eq-height[table-cell]>*{display:table-cell}

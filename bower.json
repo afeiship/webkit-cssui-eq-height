@@ -1,0 +1,29 @@
+{
+  "name": "webkit-cssui-eq-height",
+  "description": "Webkit css ui module for equal height.",
+  "main": [
+    "dist/eq-height.css",
+    "dist/eq-height.scss"
+  ],
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "webkit",
+    "cssui",
+    "eq-height"
+  ],
+  "homepage": "https://github.com/afeiship/webkit-cssui-absolute-center",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src"
+  ]
+}
